@@ -1,0 +1,4 @@
+# ignore eagle backup files
+
+*.b\#[0-9]
+*.s\#[0-9]
