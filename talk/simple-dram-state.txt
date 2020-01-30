@@ -1,0 +1,21 @@
+initial,
+delay_ras,
+delay_cas,
+assert_ras,
+set_col_addr,
+assert_cas,
+assert_ref_ras,
+increment_refresh;
+
+initial => delay_ras : if clock high and access;
+delay_ras => assert_ras; 
+assert_ras => delay_cas;
+delay_cas => set_col_addr;
+set_col_addr => delay_set_cas;
+delay_set_cas => assert_cas;
+assert_cas => initial;
+
+initial => increment_refresh : if clock low;
+increment_refresh => delay_refresh_ras;
+delay_refresh_ras => assert_ref_ras;
+assert_ref_ras => initial;
