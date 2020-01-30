@@ -1,0 +1,25 @@
+initial,
+start_access,
+set_row_addr,
+assert_ras,
+set_col_addr,
+assert_cas,
+wait_for_end,
+refresh,
+set_refresh_addr,
+assert_ref_ras,
+increment_refresh;
+
+initial => start_access;
+start_access => set_row_addr; 
+set_row_addr => assert_ras;
+assert_ras => set_col_addr;
+set_col_addr => assert_cas;
+assert_cas => wait_for_end;
+wait_for_end => initial;
+
+initial => refresh;
+refresh => increment_refresh;
+increment_refresh => set_refresh_addr;
+set_refresh_addr => assert_ref_ras;
+assert_ref_ras => initial;
