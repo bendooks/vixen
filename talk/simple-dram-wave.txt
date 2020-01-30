@@ -1,0 +1,10 @@
+// simple DRAM timing diagram for a data access
+// Copyright 2020 Ben Dooks
+
+{signal: [
+  { name: 'ras', wave: "h.L....h" },
+  { name: 'cas', wave: "h...L..h" },
+  { name: 'addr', wave: "3..2....", data: [ "row", "col" ]  },
+  { name: 'data', wave: "....x2.x", data: ['data'] },
+]}
+

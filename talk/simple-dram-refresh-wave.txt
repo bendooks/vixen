@@ -1,0 +1,9 @@
+// simple DRAM timing diagram for a refresh access
+// Copyright 2020 Ben Dooks
+
+{signal: [
+  { name: 'ras', wave: "h.L.h" },
+  { name: 'cas', wave: "h...." },
+  { name: 'addr', wave: "x3.x.", data: [ "row", "col" ]  },
+]}
+

@@ -1,0 +1,9 @@
+// simple 6502 timing diagram for a data access
+// Copyright 2020 Ben Dooks
+
+{signal: [
+  {name: 'clk', wave: 'p.', period: 4},
+  {name: 'Data', wave: 'zzzz2.z', data: ['data']},
+  {name: 'Addr', wave: 'x..2..x', data: ['addr']},
+  {},
+]}
