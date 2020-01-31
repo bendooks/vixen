@@ -11,5 +11,5 @@ Tools
 Links to the tools used for diagrams
 
 - state machine diagrams (https://state-machine-cat.js.org/)
-- circuit simulation circuit.js ()
+- circuit simulation circuit.js (https://www.falstad.com/circuit/circuitjs.html)
 - timing diagram tool (https://wavedrom.com/)
