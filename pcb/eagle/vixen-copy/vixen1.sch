@@ -13790,7 +13790,7 @@ Address
 <instance part="IC9" gate="C" x="30.48" y="99.06"/>
 <instance part="IC9" gate="D" x="10.16" y="96.52"/>
 <instance part="C1" gate="G$1" x="129.54" y="99.06"/>
-<instance part="C2" gate="G$1" x="152.4" y="124.46" rot="R180"/>
+<instance part="C2" gate="G$1" x="152.4" y="124.46" rot="MR180"/>
 <instance part="C3" gate="G$1" x="109.22" y="124.46" rot="MR0"/>
 <instance part="C5" gate="G$1" x="-5.08" y="-17.78"/>
 <instance part="P+1" gate="VCC" x="-5.08" y="-10.16"/>
@@ -15056,6 +15056,13 @@ Address
 <pinref part="CN1" gate="G$1" pin="!IRQ"/>
 <wire x1="30.48" y1="30.48" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
 <label x="33.02" y="30.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!BLK5" class="0">
+<segment>
+<pinref part="CN1" gate="G$1" pin="!BLK5"/>
+<wire x1="30.48" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
+<label x="33.02" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

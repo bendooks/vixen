@@ -3105,6 +3105,9 @@ design rules under a new name.</description>
 <signal name="!IRQ">
 <contactref element="CN1" pad="19"/>
 </signal>
+<signal name="!BLK5">
+<contactref element="CN1" pad="13"/>
+</signal>
 </signals>
 </board>
 </drawing>
