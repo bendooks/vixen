@@ -9,6 +9,9 @@ The [talk](./talk/) directory contains all the relevant presentation files
 and the [pcb](./pcb) directory has various PCB design projects (currently
 mostly in Eagle 7).
 
+There are some [pictures](https://photos.app.goo.gl/yPw7znJ7fA79bZMN6) of
+both the original boards and my rebuilds.
+
 
 Links
 -----
